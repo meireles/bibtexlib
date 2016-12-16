@@ -2,9 +2,9 @@
 
 \ProvidesFile{mybibstyle.bbx}
 \RequireBibliographyStyle{standard}
-\RequireBibliographyStyle{authoryear-comp} % change this if you're not using author-year
-\DeclareFieldFormat[article,incollection,unpublished]{title}{#1}%No quotes for article titles
-\DeclareFieldFormat[thesis]{title}{\mkbibemph{#1}} % Theses like book titles
+\RequireBibliographyStyle{authoryear-comp}                        % change this if you're not using author-year
+\DeclareFieldFormat[article,incollection,unpublished]{title}{#1}  % No quotes for article titles
+\DeclareFieldFormat[thesis]{title}{\mkbibemph{#1}}                % Theses like book titles
 \DeclareBibliographyDriver{article}{%
   \usebibmacro{bibindex}%
   \usebibmacro{begentry}%
