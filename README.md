@@ -8,4 +8,3 @@ This project is designed to be used as a *subrepo* (using [`git subrepo`](https:
 As of 2016 June 4th, I am using the [issue/142 branch](https://github.com/ingydotnet/git-subrepo/tree/issue/142) of [git subrepo](https://github.com/ingydotnet/git-subrepo) instead of master.
 
 Changes to this repo come almost exclusivelly from Mendley syncing my references to the `library.bib` bibtex file.
-
